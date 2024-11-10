@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'math_quiz = dsss_homework_2.math_quiz:math_quiz',
+            'math_quiz = math_quiz.math_quiz:math_quiz',
         ],
     },
     author="Metehan Dündar",
