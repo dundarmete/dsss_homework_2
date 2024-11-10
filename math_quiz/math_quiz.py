@@ -1,19 +1,16 @@
 import random
 
-
 def generate_random_integer(min_value, max_value):
     """
     Generate a random integer between min_value and max_value.
     """
     return random.randint(min_value, max_value)
 
-
 def generate_random_operator():
     """
     Randomly choose one of the mathematical operators: '+', '-', or '*'.
     """
     return random.choice(['+', '-', '*'])
-
 
 def calculate_expression(n1, n2, operator):
     """
